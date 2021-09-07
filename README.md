@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React is a JavaScript library used to develop interactive user interfaces. It is managed by Facebook and a community of individual developers and companies. React mainly focuses on developing single-page web or mobile applications. here, we will create a todo app to understand the basics of reactJS.
+
+Modules required:
+
+npm
+React
+React Bootstrap
+npm install react-bootstrap bootstrap
+Basic setup: Start a project by the following command:
+
+NPX: It is a package runner tool that comes with npm 5.2+, npx is easy to use CLI tools. The npx is used for executing Node packages. It greatly simplifies a number of things one of which is checked/run a node package quickly without installing it locally or globally.
+npx create-react-app React-todolist
+Now, goto the folder
+cd React-todolist
+
+
+
 
 ## Available Scripts
 
@@ -40,15 +56,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 Commands used to install Font awesome:
-$ npm i --save @fortawesome/fontawesome-svg-core
+### `$ npm i --save @fortawesome/fontawesome-svg-core`
 
-$ npm i --save @fortawesome/free-solid-svg-icons
+### `$ npm i --save @fortawesome/free-solid-svg-icons`
 
-$ npm i --save @fortawesome/react-fontawesome
+### `$ npm i --save @fortawesome/react-fontawesome`
 
 Commands used to publish react files in github:
 git remote set-url origin https://github.com/R-Akash/React-todolist.git
 
-npm run build
+### `npm run build`
 
-npm run deploy
+### `npm run deploy`
